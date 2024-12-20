@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(99, 96, 96);
+}
+
+.hero {
+    background-color: #0a0909;
+    color: aliceblue;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+input{
+    margin: 2vh;
+    width: 80%;
+    height: 6vh;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    flex-wrap: wrap;
+}
+
+button{
+    cursor: pointer;
+    min-width: 12vh;
+    height: 5vh;
+    border: none;
+    background-color: #b309e7;
+    color: white;
+    font-weight: 700;
+}
+
+.output{
+    min-height: 12vh;
+    height: auto;
+    width: 45vw;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #525050;
+    color: #0a0909;
+}
